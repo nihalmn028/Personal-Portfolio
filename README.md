@@ -1,7 +1,7 @@
 
 # Personal Portfolio
 
-Live Demo:
+Live Demo:https://nihalmn028.github.io/Personal-Portfolio/
 
 A portfolio including my peronal information,skills,technical knowledge and other information was made using html,CSS and JavaScript.
 
