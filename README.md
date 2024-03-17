@@ -8,7 +8,7 @@ A portfolio including my peronal information,skills,technical knowledge and othe
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](Dev png/Screenshot 2024-03-17 162352.png)
 
 ## Installation
 
