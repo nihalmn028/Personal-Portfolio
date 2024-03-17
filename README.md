@@ -8,7 +8,7 @@ A portfolio including my peronal information,skills,technical knowledge and othe
 
 ## Screenshots
 
-![App Screenshot](Dev png/Screenshot 2024-03-17 162352.png)
+![Dev png/Screenshot 2024-03-17 162352.png](https://github.com/nihalmn028/Personal-Portfolio/blob/main/Dev%20png/Screenshot%202024-03-17%20162352.png?raw=true)
 
 ## Installation
 
