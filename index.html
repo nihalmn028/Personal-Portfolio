@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nihal's-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="Dev png/portfolio.png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+   
+
+
+
+      
+      
+    
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div id="homee" class="left">Nihal's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi , I am <span class="sahil">Mohammed Nihal M N</span>
+          <div> a B.tech Computer Science Graduate</div>
+          <div>who is pasionate about</div>
+          <span id="element"></span>
+          <br>
+       <a href="./Dev png/Mohammed Nihal M N (Resume) (2).pdf" target="_blank"><button class="resume-btn" style="margin-top: 80px;">Check Out My Resume</button></a>   
+        </div>
+
+        <div class="rightSection">
+          <img src="link.jpg" alt="Developer png" />
+        </div>
+      </section>
+
+      <hr />
+
+      <section class="secondSection">
+        <span class="far">What I have done so far..</span>
+        <h1 id="projects">Projects</h1>
+
+        <div class="yt">1. Netflix Clone</div>
+        <body>
+          <div class="card">
+            <img class="ytpic" src="data:image/png;base64,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" alt="image of netflix" />
+            <div class="ytbody">
+              <h2 class="dis0">1. Netflix Clone</h2>
+              <p class="dis1">
+                Developed the clone of Netflix with React.
+                This clone featured most of the functionalities of the original
+                app with the help of API integration.
+              </p>
+            </div>
+          </div>
+          <div class="yt">2. Spotify Clone</div>
+          <body>
+            <div class="card">
+              <img class="ytpic" src="data:image/png;base64,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" alt="image of netflix" />
+              <div style="background-color: green;" class="ytbody">
+                <h2 class="dis0">2. Spotify Clone</h2>
+                <p class="dis1">
+                  Developed the clone of Spotify with React.
+                  This clone featured most of the functionalities of the original
+                  app with the help of API integration.
+                </p>
+              </div>
+            </div>
+
+
+    <div class="yt">3. E-KART</div>
+    <body>
+      <div class="card">  
+        <img class="lockpic" src="favicon.png" alt="photo of a lock">
+        <div class="lockbody">
+          <h2 class="dis0">3. E-KART</h2>
+          <p class="dis1">
+          
+            Designed and developed a full-fledged e-commerce website
+             using MERN stack.
+            
+             The frontend was developed using react.js and used node.js for
+             backend and mongodb for database.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="yt">4. Farmers Hub
+        </div>
+      <body>
+        <div class="card">  
+          <img class="pypic" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAMAAzAMBEQACEQEDEQH/xAAbAAEAAwEBAQEAAAAAAAAAAAAAAwQFAQYCB//EADkQAAEEAQIEAwQIBgIDAAAAAAEAAgMEEQUhEjFBUQYTMhQiYbEjUnGBkaHB0RU2QmJz4RbxNHLw/8QAGgEBAAIDAQAAAAAAAAAAAAAAAAQFAQIDBv/EADERAAICAgIBAwIFAwMFAAAAAAABAgMEERIxIRMiQTJRBRRhcbEzQpGBodEVIyTB8P/aAAwDAQACEQMRAD8A/cUAQBAEBxAdQBAcQBAEAQBAZ2oarHVlbG0B7s+/g8h+6GdF2CaOeISRODmnshgkQBAEAQBAEAQBAEAQBAEB1AEAQBAEBxAEAQBAEAQGVrGpiuDDAcynmfqoZSPOElxJJJJ6lYNi1p1+SlJtl0ZPvNQNHqoJo54myROy1yyaEiAIAgAQAoAgOoAgCA4gCAIDqAIAgCA4gCAIAgCAytY1MV2mGA5mPM/V/wBoZSPNkkuyckk8ysGxxzmtAJI3OFhtLsw2o9nf0WTJb069JSlyN4z6moGj1UE0c8bZInZa7ksmhIgCAIAgCAIDqA4gCAIAgCAIAgCAIAgCAIDK1fVBXaYYCPOI3P1f9rBlI84SSSTuT1Q2PiR7Y2Oe84a0ZKw3xWzDaits85qFx9nifkhrd2gdPiqyy1zlsqLrpTls09H1H2yMxyH6Zg3/ALgptNvInY1/qLi+zSXclFvTrz6UuRvGfU39UDR6qCZk8bZInBzT1WTQkQBAEAQBAEAQBAEAQBAEAQBAEAQBAZWr6oK7TDAfpjzP1f8AawZSPNkknJOSepQ2CAx/EFnhbHXafV7zvsUTKn44ogZ1mlwRjPP0L89lB0V5BWsPrWGTMOC0/j3XSD4yTRtCfCake2ieJImSN9LgCFaJ7SZeRkpJNH0smS3p199KXPqjd6m/qgaPVQTMnibJEeJp5FZNCRAEAQBAEAQBAEAQBAEAQBAEAQGTq+qezgwwEGU8z9X/AGsGUjzhyTkkklDYIB1QHl9afxak4fUAAVdkPcymy3u1opvP0T/sXA4IqkrbQPW6BIZNMjyfSS1WFD3BFxivdSNFdiQEBb028+lNke9G71N/VA0eqgmZPGJI3BzTyKyaEiAIAgCAIAgCA6gOIAgCAIAgKF+75X0cRy/qeygZWX6fth2RL8jh7Y9nm54i1xdzB5rbFylauMvqOmPkKxafZCphKCAfrsgPK62wx6nJnk7BCrshasZS5a1aym8/RP8AsXE4Iq5Wxses8ON4dMaTtxOJU+hagi2xFqo1F2JIQAAk4HNYlJRW5dGUm/CNPT5n0jkElpPvN6FVEvxCXqbj9JMWKnHz2eigmZPGHRnIP5K1rtjZHlFkGUXF6ZIuhqEAQBAEAQBAEAQBAEBQ1C75WY4j7/U9lX5eV6ftj2RMi/h7Y9mQTkknclVDbb2yuZwgEEEZRNppoJtPa7Kc8PlnI9J/JXWLkq1cX9Ra4+QrFxfZCphKCAxvEdXjhbZZzj9X2KNkw2uRAzqtx5o8+84id9igrsrUQRMdNMyJm7nkABdEtvRvFOTUUe6qwNr14oW7hrQP3VlGPFaLuEeEeKJlk3OgZOAsSkorbMpNvSLUMQYMnc9VRZWU7npeEWFVKgvPZKoZ3J6ll9aTibkg+puea74+RKmW10crao2Lyb0EzJow9hyCvQVWxsjyiVcouD0yRdDUIAgCAIAgCAIAgM/ULojBjiOX9SOir8vLUPZDsiZGQorjHsyfiVTlaEBzKGARkYWU2ntGU2ntFOaEsORkt+SusXKVi4y8P+S2x8hWLT7IVMJRwgOBDhkEcu6aHfg8/c0V4mLYCPKeDjP9J6KDZRxluJXSw9T2ui1omkexDzp8GcjHwaFIqq4eX2SMfHVfmXZrrsSToGTgDOVrKSittmUm3pFqGLgGTu5UeVlO56X0lhTSoLfySqGdggCAmqWHVpeJoyD6h3XfHvdMto521KyOmb0EzJ4w+M5HyV/VbG2PKJVzg4PTJV1NQgCAIAgCAZwgKGoXfLBjiPv9T2UDLy+C4Q7ImRkcfbHsyMk8zk9VTNlb5Znalq9Wjs5wkm6Rs3K3jByMpGaK+p6yQ+072WqTngbzct9xj15M+EdNTU9HPHTkNmv1idzH/wB8E3Gffgb2aGm6zWvHy8+XP1jfsfuWkoNGGtGi4ZGFqm09oJtPaKc0Pl+830/JXWLlK32y+otcfIVi0+yFTCUdbjiBcMgFYa2DiygdAycBYlJRW2ZS29ItQxBgyfUqLKync9L6SwppUFt9kqhncIYCAIAhknq2n1pMt9J9Te6kUZEqZbRxtqVi0zdgmZPGHsOyvqrFbHlErJwcHpkq6moQBAEAzhAUL90R5ji9fU9lAy8vh7IdkTIyOPtj2ZHxKpuytMPWbNuW/Dp1OQRGRpLn9cfBdYJJcmbL7ljTtHq0PpXe/NjJlf0WJTcvActmhFPFNG6SOVr2Dm4HZaNPejBUdq+ntcWuuR5678lnhL7DRBc02jq8fnRPbx9JYj81spyj2Z20QaRPbh1KTTbUolaxnEx/XoszSceSDXjZuEZHw7Lmm0/Bqm09opzw+X7zfT8ldYuV6vtl2W2PkKxafZCphKAGTgc1iUlFbfRlLb0i3DEGDJ5nqqLKyna9LpFhTSoLfySqGdynqmpVNKqOs3ZRHGNh3cewC6V1TslxiaTnGK2zzo8eUcCR1G4K/LzfL91S/wDp8uuS3+5w/ML7HpdP1CtqNRtmlIJIncsd+3wKh2VyrlxktM7RkpLaKFDxDUvarLpYbLDaiyS2VuOLHZdbMecIKz4NY3RcuPyWNb1ipolMWbrnBpdwta0Zc4/Ba00TulxibTsUFtk+n2xfpxWWxyRskHE1sgwSFpZD05OLNova2X6tl9aTibuDzHddKL5Uy2jnbUprRvwTMnjD2Hmr+qyNseSKycXB6ZIupqEAQFDULojzHGff6nsoGXl8PZHsiZGRx9sezI3zkqm78srQgMGz/NdX/EfkV1X9Nm3wa94ZpT/4nfIrnHtGp5SNsrvCpELXcPne+G9lI2lZ5N/ktU5vDpgbG+NofjDjI0nJ+1ayVnaHkt6PSjg1GSahYjfUc3djXbgrWctrTMN/cQfzZN8If2R/00H0bo5LkanCMrKensJtPaKc8Ja7LBkHp2VxjZkZrU35LbGv9T2vslhi4Nz6lXZWU7npdIu6qlBb+SVRDsEB+d+KL9R3jOBurvd7BUbnhxnLsZH54Vvi1zWM3X2yBdKLt9/SNt3jnw66MxmcmPGC3y9sdsdlG/JZK8/J2/MVPwYvga7Wb4pv1dOeTRsMMjGnbBBGPmpOdXL0Iyl2jljyXqtR6NTxxpEvDHrdAltyp7z8c3tHX7lww70t0y6fR0yIf3xMrSWz+NNdF28wNo1AB5YOxd2+/mfsUi3jh1cI9s5Q3fPb6R+iAAAAbAdlTk8ICarZfWfxNOQfUO670ZEqXtHOypTWjeglZMwPjOQefwXoKrI2RUkVc4OL0yVdDUICjfpCYF8YAk+ag5WKrFyj2Rb8dT8rsx9wSCMEbEdlTNNPTKxrXhhYBg2v5rq/4z8iuq/ps2+DXvf+HP8A4nfIrmu0ao8xRuWKOgxywMa5nnESBwzsu8knPyb/ACaXnaBZZ5j/AGYE8wRwn8lpqa6MaZn6e2v/AMij/hefZw08ZHLkf1wt5N8PcH15L8H82Tf4f2Wj/poPo3RyXI1ABJAAySsxi5NRXbCWy/BAI2+96jzXocTDjTHcvLJdcOHn5K1uuY/fZ6T+Src7CdXvh0XuJlqz2y7KyrCeERk8H4gxo3jWtqlqPjp2G8D3FuQNsflz+5WuO/VxXWn5RBt9lym+j1ntGk+ze0h9QwYz5g4cKBxt5cfOyTuGt+DJ8M63/GdQtitp8UdWDZthowXdh+G6kZNDpity8v4OdVnOT0vBneMNQn1bUYvDmlnLnuHtDm9B2/ddcSpVw9axfsc7pucvTiVLFeTwPrFazA58mm2G+XK09+v7rpGSzK5Rf1Lo1cXRLfwe+hlZNCyWJ3FG8BzXdwqmScXp9k1PflEiwZLFOq60/HJg9TlIxseV0v0OVtqrX6m7DEyFgYwYAXoK641x4x6KyUnJ7ZItzUIAgKN+kJhxx4EnzUHKxVb5j2Rb6Oa2uzH3BIIwRzBVM014ZWtNeGYmsU7YvRahRa2R8TcFh6hdINNcWZT+CGXxHWkpSsmjkjnLS3gI7hZVb34M8Sz4YhczSWtlbs8k4PZa2P3GrZYfo2nPdxOqM4jvssc5DZVtanQ0kGGpG18p/ojHX4lbKMpeWZS2fOj1bkmoSajdYIzIzhawcx9qTaS4oN/BugE4AGSVpGLlLjFbZrrZfrwCIZPqXoMPEVK2/qJddfEmU46DHPO+VhrZleHtGfarlh4ox7vX4KgzsJ1++HX/AN/sXGJl+ouMuysqwnkFynXvV3V7cTZYXc2OGQtoTlCXKL0zEoqS0zz/APwLQfO8wwS/+vmnCmf9Rv1rZw/K17PQVadenXFepEIYgNms2UOU5Slyk/J3UUlpFTTNC07S55p6cHDLN63ucST16rpZfZYkpPwjWNcYttFnUKNfUqj6t2MSQvxxNPwWkLJQlyiZlBSWmNPoQadVbVqtc2FvpaXE4/FLLJWPchGKitI0adV1mTA2aOZXXGx5XS/Q0ttVaN6KJkTAyMYAXoK641x4xKyUnJ7Z9rc1CAIAgCApX6QmBfHtIB+Kg5WKrVyj2Rb8dTW12YxBB94EEdD0VM014ZWtNeCGStXldxyQxOeOTnMBITbBkWrOq0J3SujbZqHpG3BaF0SjJGdJkBk1TWjwxNNSqTguPNw/VZ1GI8I1NN0mrp+8bQ6XrI4brSU3Iw2aABccAZJWsYuT1Hsa2aFeARY4vUV6HDxFStv6iVXDj2S5wcde2VNR0/Y6sgINr7nNnDAwVhpfI3/cihar+WeKMZZ8lQZ2C6/fDr+C5xMtT9s+ysqwnhAEAQyEBYp1XWZMbhg5lSMfHldL9Djbaq1+pvRRNiYGMGAF6CuuNceMSslJye2fa3NQgCAIAgAQAoCjfpCYccYxIOndQsrFVi5R7/ki30Ka2uzHwQcEYIVK1p6ZWva7CwYCAAFxAAyei2jFyfFdmUtl+vAIxk7uP5L0GHiKlbf1EqFaj2Syu8uN7/qglTkttI2lLimzHo6dFdqts2XSedKS7ia8gtz0Cl23uuXGK8IpsXCjlVK61tyfnt+P2ElmfR8C082Kx2ZJ/UD2PdFXDI+jxI2lfd+H+LXyg+n8okirWNRxNdldHEd2wxnG3xKw7IVe2Hl/dm8aLsvU73qPxFP+T5ZA3TtTgjgLhDYBBYTkBw3Tl6tTcu0YhWsPLhGt+2e/H6o1yBjBxhRGk15LhPT2jPtV/LPG309uy8/nYPpv1K+v4LjEyua4S7K6rSeEAQFinVdZkwNmD1FSMbHldL9Dlbaq0b0MTIowyMYAXoK641x4xKyUnJ7Z9rc1CAIAgCA6UBxAEAQFHUKYnBewYk+ahZWL6i5R+ojX0Ka2uzHcC0kOGCOYKpWmnplY009M60EkADJKRi5vivkJNsvV4BEMnd5XocPEVK2/MiVXDiTqcdCtetVoIHCxKxgcCBnny7LeuE5yTgtkfJvpqg1bLW/BkaZqwh05sbYJpTEDxPaNgB8VLux+Vm9pbKfC/EVXjJKLfFfbwfDXWrtkXJNPdNBwkRMLgAB3W2q648FPTOalfk2+vOnlH+1bR2nctaa4V56kpjkdmFuQSPgsWVV3e6MvK7NsfJvw36U63pv29H1NqUMuq1XTB0DYQ4u81uME7BYjRKNMlHzv7G9mdVZl1uacVHff3ZvRvbK3iY4OHcHKhNNPTL2ElNco9HVq1tG36lC1W8s8cYJaeYHRUGdgut86+i4xMvn7JdlbKqywLFSq+zJsMMHqdhSsbHldL9PucrbVWv1N6GNsUYYwYaOiv6641x4xKyUnJ7Z9rc1CAIAgCA6gOIAgCAIAgKV6l5442YEg/NQsrFVnuj9RGvoU1tdlaCv5Iy4e/wDJd8PEVK5P6iNCvj2TKcdCpqtl1WjJLHjj2a3PIE7ZXWmCnNJ9EPPyJY+PKyPf/JFS02GLhmmHn2Hbulfvv8FtZfKXtXhGmPgVVvnP3TfyzNtwuGrOote1sNpzZHDPbp9+FJrkvR9RrzHwVmRXL828VNcbNN/8Hzrup2Ks7alR3ksawbgb/wDSzi48Zx5z8s1/FM+3Hs9Gn2pfYmrSv1jR5DKQ2aE5bJjAyNwVznFY9y10/g70Tl+IYTlPxKPT/Uk0Ie2Mnu2A175TwYxnAC1yv+21CPwb/hiWSp326bl4/wAC5A3Siy3SPAwvDZIejsnoO6VzdycJ/wCTORUsFq+jwt6a+Hs2W74+xRNaLn4TB32WGk/DM7a8orjTzLMOE4j5n4Kmv/Dd2bj4iy1ozG4al2a0MbYmBjBgBT661XHijjKTk9s+1uahAEAQBAEAQBAEAQBAEAQEU0QfuPUtoy0c5w5eUVCMHB5rsRmtHxPEyeJ0UrQ5jhggrMZOL2uznZXGyDhJbTMxsd7ThwwgWqzfSxxw9v3qQ3Vd9XtZWqvJxfbH3w+3yjIksQze0WpvMjsmQOhcWnAA6ZUuMJR1FeVryU076rVO6e1Pe4+PC18bLstrSdSijkuP4ZQ3BxkEdwuMa76ZNQXgnWZH4dmQjK56l/uR3b1BtWOhRkDYXnEhb0b1+3K2qptc3ZNeV0csrMxY1Rx6H7X3+3z/AJFO35F6SPT68j2TtBY144cEczullfOtOx+UbY+T6WRKGNBtS1pPx5NGGjPPYbY1KRryz0RM9Lfj8VHdsYR41LW/ksa8Sy2xW5L3rpLpGmFGLI+44zIcDl1KxKWjeEOTLjWhowBgLk3slJJLwdWDIQBAEAQBAEAQBAdQHCgCAIAgCAimiDxkepbRlo52Q5dFUjBwuxGa0RWCRXlLefAcfgsx+pb+5ztbVcmvs/4KeiBv8KrjZw4d87rrkt+rJsifhiX5Sv8AYo6sW6dbbYrMY+SUYfAW5z/cFIo3dDjLwl8lfnNYl6tqScpdx7/1LeiwxezGcPbJLKeJ7g3key45E5cuPSRL/Daa1U7E9uXb/wDQ1An+K6dg75eNu2Eq/pTGU/8AzKH+/wDjRpqOWZ9xRmR23LqVrKWjeEHIuNaGjA5Lk3slJaWjqwZCAIAgCAIAgCA6gCA4gCAIAgCAIAgIpYg8ZHNbRlo5zhy6KhackEfiupG158mU3T7cIdFUuNjrlxIHBlzc9ipbvrl5nHbKiOFkVbhTZqP7dfsWaOnw1SZN5J3eqV+7iuVl0p+Ol9iVjYVdDcu5P5fZDNpuJjNRmNeU+oAe677Qto3+ONi2crcHjP1KJcJP/D/0PqpRmbZ9puzCWYN4WcLcBoWJ2xceEFpG2PjWK31bpcpJaX2RpxRmQ7chzKjylosoQci41oaAByXJvZKS0tHVgyEAQBAEAQBAEAQBAEAQBAEAQBAEAQBARyx8YyNndFtGWjnOCkU8EHfYrsRvK8BDAQyfcURedtmhaylo2hFyLjWhowOS5b2SkklpHVgyEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQEU0QeNvUtoy0c5w5IqEEHB5rsRmtdn3FGXu/tWspaNoQcmXGtDRgBctkpLS0jqwZCAIAgCAIAgCAIAgCA6gOIAEAQBAEAQBAEAQBAEBHLEHnPIrZSaOc4KR9taGgADktdm6WkdQyEAQBAEAQBAEAQBAEAQH/9k=" alt="image of programming language python">
+          <div class="pybody">
+            <h2 class="dis0py">4. Farmers Hub
+            </h2>
+            <p class="dis1py">
+              Developed Farmers Hub, a MERN stack web application
+              facilitating seamless buying and selling of crops.
+          </div>
+        </div>
+
+        <div class="yt">5. Personal Portfolio </div>
+        <body>
+          <div class="card">  
+           <img class="popic" src="Dev png/portfolio.png" alt="image of a portfolio">
+            <div style="color: white;" class="pobody">
+              <h2 class="dis0">5. Personal Portfolio</h2>
+              <p class="dis1">
+               A portfolio including my peronal information,skills,technical knowledge and other information was made using html,CSS and JavaScript.
+              </p>
+            </div>
+          </div>
+          
+    
+    
+  </section>
+
+  <hr>
+
+  <section class="thirdSection">
+    <h1 id="about" class="about">About Me</h1>
+    <body>
+       <div>
+      <p class="about-me"> I am a b.tech Computer Science graduate,
+        actively pursuing advanced coursework in Full
+        Stack Development, focusing on honing skills in
+        building scalable and efficient applications using
+        the MERN stack. I maintain a driven mindset to
+        stay at the forefront of industry advancements. I
+        am looking forward to contribute my technical
+        expertise and passion for innovation to a dynamic
+        development team.
+        <div class="educational-quakification">
+        <h1>Educational Qualification</h1>
+        </div>
+        <div>
+       
+        
+        <p class="Education">Bachelors Degree</p>
+        <p class="school">KMEA Engineering College<br>
+          2019-2023</p>
+          <p class="Education">Higher Secondary Education</p> 
+        <p class="school">SDPY HSS Palluruthy<br>
+          2017-2019</p>
+          <p class="Education">Seconday School</p>
+          <p class="school">SDPY BHSS Palluruthy<br>
+            2007-2017
+          </p>
+      </div>
+    </div>
+    <div class="internship">
+      <h1>Intership</h1>
+      <p class="nextgenpro">Done intership on Machine Learning (ML) at NextGenPro Innovations and Edupark Pvt Ltd.</p>
+    </div>
+    <div class="internship">
+      <h1>Courses & Certificates</h1>
+      <p class="nextgenpro"> Certificate Course in MERN FULL STACK at Aesthetix Edu Tech</p>
+    </div>
+    <div>
+      <h1 class="achiv"> Academic Achievements</h1>
+      <p class="pc">>Coordinated and contributed to projects at HackClub.<br>
+      >Participated in Internal Hackathon for Smart India
+      Hackathon. <br>
+    >Played in college Football team.</p>
+    </div>
+    <div class="programming-lan">
+      <h1>Techical Skills</h1>
+      <div class="container">
+        <div class="skills">
+         
+          <h2>html</h2>
+          <div class="progress-bar">
+            <div class="html"><span>90%</span></div>
+          </div>
+          <h2>CSS</h2>
+          <div class="progress-bar">
+            <div class="css"><span>90%</span></div>
+          </div>
+          <h2>JavaScript</h2>
+          <div class="progress-bar">
+            <div class="javascript"><span>80%</span></div>
+          </div>
+         
+        
+          <h2>React</h2>
+          <div class="progress-bar">
+            <div class="react"><span>80%</span></div>
+          </div>
+          <h2>Node Js</h2>
+          <div class="progress-bar">
+            <div class="node"><span>75%</span></div>
+          </div>
+          <h2>Mongo DB</h2>
+          <div class="progress-bar">
+            <div class="mongo"><span>75%</span></div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <section class="fourth-section">
+        <div class="contact">
+          <h1 id="contact">Contact Me</h1>
+          <p class="address">nihalmn028@gmail.com <br>
+          +91 9747516659 <br>
+        Maliyekkal House <br>Kunnumpuram, Fortkochi <br> 682001 </p>
+        </div>
+      </section>
+    </div>
+    <footer>
+    <div class="footer">
+      
+      
+      <div class="footernav">
+        <ul>
+          <li> <a href="#">Home</a></li>
+          <li> <a href="#projects">Projects</a></li>
+          <li> <a href="#contact">Contact Me</a></li>
+          <li> <a href="#about">About</a></li>
+        </ul>
+      </div>
+     
+    </div>
+    <div class="bottom">
+      <p>www.nihal_portfolio | All rights reserved<br>
+      made with <span class="hearts"> &hearts; </span> by <span class="designer">Nihal</span></p>
+    </div>
+    </footer>
+  
+</section>
+  
+</main>
+    
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Full Stack Development (MERN)",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+
+  </body>
+</html>

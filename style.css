@@ -1,0 +1,514 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  
+}
+body {
+  background-color: #88BDBC;
+  color: #112D32;
+  font-family: Poppins, sans-serif; 
+}
+nav {
+  width: 100%;
+  margin-top: -70px;
+  display: flex;
+  position: fixed;
+  z-index: 10;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: #0F292F;
+  
+  
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  font-size: 1.02rem;
+  color: greenyellow;
+}
+.left {
+  font-size: 1.5rem;
+  color: white;
+  
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 70px 0;
+}
+.firstSection > div {
+  width: 30%;
+  margin: 70px 36px;
+  
+}
+.leftSection {
+  font-size: 1.8rem;
+}
+.rightSection img {
+  width: 80%;
+}
+.sahil {
+  font-weight: bold;
+  color: white;
+}
+#element {
+  color: greenyellow;
+}
+.secondSection {
+  max-width: 80vw;
+  margin: auto;
+}
+main hr {
+  border: 0;
+  background: rgb(255, 255, 255);
+  height: 1px;
+  margin: 40px 80px;
+}
+.secondSection h1 {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+}
+.far {
+  color: gray;
+  font-size: 20px;
+}
+.yt {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+p {
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.secondSection body {
+  width: 100px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+  border: 5px solid white;
+  position: relative;
+  overflow: hidden;
+}
+.ytpic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  position: relative;
+}
+.ytbody {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background-color: rgb(214, 30, 30);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  color: white;
+  padding-top: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.8s;
+}
+.card:hover .ytbody {
+  right: 0;
+}
+.dis0 {
+  text-transform: uppercase;
+  padding: 30px;
+}
+.dis1 {
+  text-transform: inherit;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 30px;
+}
+.lockpic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  position: relative;
+}
+.lockbody{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background-color: rgb(58, 58, 58);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  color: white;
+  padding-top: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.8s;
+}
+.card:hover .lockbody {
+  right: 0;
+}
+.pypic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  position: relative;
+}
+.pybody{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background-color: rgb(231, 247, 10);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  color: rgb(56, 56, 218);
+  padding-top: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.8s;
+  }
+.card:hover .pybody {
+  right: 0;
+}
+.dis0py {
+  text-transform: uppercase;
+  padding: 25px;
+}
+.dis1py {
+  text-transform: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 30px;
+}
+.popic{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  position: relative;
+}
+.pobody{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  color: rgb(12, 12, 63);
+  padding-top: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.8s;
+  
+}
+.card:hover .pobody {
+  right: 0;
+}
+.botpic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  position: relative;
+}
+.botbody {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  position: absolute;
+  background-color: #563d7c;
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  color: white;
+  padding-top: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: 0.8s;
+}
+.card:hover .botbody {
+  right: 0;
+}
+.dis0bot {
+  text-transform: uppercase;
+  padding: 25px;
+}
+.dis1bot {
+  text-transform: inherit;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 30px;
+}
+
+
+.Education{
+  text-decoration: underline;
+  margin: 12px 60px;
+  font-size: 20px;
+  color: rgb(102, 103, 104);
+}
+.about-me{
+  margin: 15px 60px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+.about{
+  margin-left: 60px;
+  color: rgb(255, 255, 255);
+}
+.educational-quakification{
+  margin: 40px 60px;
+  color: #112D32;
+ }
+.school {
+  margin: 3px 60px;
+}
+.internship{
+  margin: 40px 60px;
+}
+.nextgenpro{
+  font-size: 16px;
+  margin: 10px 0px;
+ color: rgb(102, 103, 104);
+}
+.achiv{
+  margin-left: 60px;
+  margin-bottom: 12px;
+  }
+.pc{
+  color: rgb(102, 103, 104);
+  font-size: 16px;
+  margin-left: 60px;  
+}
+.programming-lan {
+  margin-left: 60px;
+  margin-bottom: 10px;
+  margin-right: 60px;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.skills h2
+{
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 16px;
+}
+.progress-bar
+{
+  background-color: #959595;
+  width: 600px;
+  height: 10px;
+  border-radius: 5px;
+}
+.progress-bar div{
+  height: 10px;
+  border-radius: 5px;
+  width: 0%;
+  
+}
+.progress-bar div span{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #222;
+  float: right;
+  margin-top: -15px;
+  margin-right: -20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mongo
+{
+  background-color: blue;
+  animation: mongo 1s linear forwards;
+}
+.node
+{
+  background-color: red;
+  animation: node 1s linear forwards;
+}
+.react
+{
+  background-color: yellow;
+  animation:react  1s linear forwards;
+}
+.javascript
+{
+  background-color: green;
+  animation: javascript 1s linear forwards;
+}
+.html
+{
+  background-color: rgb(255, 0, 255);
+  animation: html 1s linear forwards;
+}
+.css
+{
+  background-color: rgb(0, 225, 255);
+  animation: css 1s linear forwards;
+}
+.mongo span{
+  border: 1px solid blue;
+}
+.node span{
+  border: 1px solid red;
+}
+.react span{
+  border: 1px solid yellow;
+}
+.javascript span{
+  border: 1px solid green;
+}
+.html span{
+  border: 1px solid rgb(255, 0, 255);
+}
+.css span{
+  border: 1px solid rgb(0, 225, 255);
+}
+@keyframes mongo{
+  100%{
+    width: 75%;
+  }
+}
+@keyframes node{
+  100%{
+    width: 75%;
+  }
+}
+@keyframes react{
+  100%{
+    width: 80%;
+  }
+}
+@keyframes javascript{
+  100%{
+    width: 80%;
+  }
+}
+@keyframes html{
+  100%{
+    width: 90%;
+  }
+} 
+@keyframes css{
+  100%{
+    width: 90%;
+  }
+}
+.contact
+{
+  color: white;
+  font-size: 20px;
+  
+}
+.address
+{
+  color: #222;
+  margin-top: 15px;
+}
+.footer
+{
+  background-color: rgb(18, 19, 70);
+  width: 100%;
+  padding: 50px;
+  
+
+}
+.footernav
+{
+  margin: 30px 0;
+  align-items: center;
+
+}
+.footernav ul{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  
+}
+.footernav ul li a{
+  color: white;
+  margin: 95px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footernav ul li a:hover{
+  opacity: 1;
+}
+.bottom
+{
+  background-color: black;
+  padding: 12px 0;
+  text-align: center;
+  padding-top: 20px;
+}
+.hearts
+{
+  color: red;
+}
+.designer
+{
+  color: greenyellow;
+  
+}
+.resume-btn{
+  padding: 10px;
+  border-radius: 50px;
+  border:none;
+  background-color: orange;
+  color: white;
+  font-size: 16px;
+}
+.resume-btn:hover{
+  scale: 1.02;
+  cursor: pointer;
+}
+.bottom{
+  color: white;
+}
+
+
